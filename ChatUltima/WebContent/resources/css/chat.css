@@ -1,0 +1,143 @@
+
+.mensaje, .nombre, .texto{
+	box-sizing: border-box;	
+	-moz-box-sizing: border-box;	
+}
+
+h1,h2 {
+	margin: 0px;
+	text-align: center;
+}
+#logout{
+	font-weight: bold;
+	
+}
+#logout:hover{
+	text-decoration: underline;
+	cursor: pointer;
+	
+	}
+
+#nomensaje{
+	position: relative;
+	top: 40%;
+	text-align: center;
+}
+
+#contenedor {	
+	
+	margin: 0 auto;
+	padding-right: 5px;
+	position: relative;
+	width: 800px;
+	margin-top: 50px;
+}
+
+#nick {
+	font-weight: bold;
+	float: left;
+	color: red;
+	display: none;
+	
+}
+
+#info{
+	padding-right:10px;
+	float: right;
+	color: gray;
+	
+}
+
+#info p{
+	float: right;
+	margin-top: -20px;
+}
+
+#chat {
+	overflow: auto;
+	width: 600px;
+	height: 500px;
+	border: 1px solid black;	
+	
+	/*box-shadow:inset 0px 10px 30px 0px rgba(50, 50, 50, 0.3);
+*/}
+
+#chat .mensaje{
+	background: url("../img/libreta.jpg") repeat fixed 0 0 transparent !important;
+	display: block;	
+	width: 100%;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid black;
+	
+}
+
+.mensaje img{
+	padding: 0 1px;
+	vertical-align:text-top;
+}
+
+.nombre, .texto{
+	display: inline-block;
+    vertical-align: top;    
+    padding-top:3px;
+    padding-bottom:3px;
+}
+.texto{
+	padding-left: 10px;
+}
+
+
+
+.nombre{
+	text-align: center;
+	font-weight: bold;
+	width: 20%;
+	
+	
+}
+
+.texto{
+	width: 80%;
+	border-left: 1px solid red;
+	word-wrap: break-word;	
+}
+.mensaje:nth-child(2n+1) .nombre{
+	
+}
+.mensaje:nth-child(2n+1) .texto{
+	
+}
+.bloque {
+	margin: 5px;
+	float: left;
+}
+
+.centro {
+	text-align: center;
+	margin: 0 auto;
+}
+img, iframe , video, audio{
+	max-width: 100%;
+}
+label.error, h2{
+	color: red;
+}
+
+#usuarios,.cubrechat{
+	display: inline-block;
+	vertical-align: top;
+}
+#usuarios{
+	float: left;
+	margin-left: 10px;	
+	margin-top: 80px;
+}
+#listausuarios{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.cubrechat{
+	float: left;
+	margin-left: 10px;
+}
